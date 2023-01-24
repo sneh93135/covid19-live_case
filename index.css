@@ -1,0 +1,87 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* padding: 25px; */
+    background-color: wheat;
+    color: black;
+    /* font-size: 25px; */
+  }
+  
+  
+  .dark-mode {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(189/, 255, 233); */
+
+  }
+nav{
+    height: 10%;
+    position: absolute;
+    margin-left: 20%;
+    font-size: 30px;
+}
+ nav li{
+    display: inline-block;
+
+ }
+
+ nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50%;
+    font-size: 30px;
+    padding-left: 80px;    
+   
+ }
+ 
+ nav li a:hover{
+   color: antiquewhite;
+   text-shadow: 2px 2px 5px red;
+ 
+ }
+
+body{
+    background-color: bisque;
+}
+
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+  }
+  th{
+      color: rgb(26, 255, 240);
+      background-color: rgb(0, 0, 0);
+  }
+  
+  
+  .tab{
+      margin-top: 8%;
+      margin-left: 19%;
+  }
+   .tital{
+      margin-top: 5%;
+      font-size: 40px;
+      margin-left: 15%;
+   }
+
+   button{
+    color: rgb(255, 227, 227);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer
+   }
+
+   .f-b{
+   margin-left: 10%;
+   margin-top: 2%;
+   }
+
+   .f-2{
+     margin-left: 80%;
+     width: 120px;
+   }
